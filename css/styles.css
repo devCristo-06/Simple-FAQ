@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+a {
+    color: #4E80EE;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #D2D5DA;
+    height: 1px;
+    border: 0;
+    margin: 10px 0 10px 0;
+}
+
+#pHeader {
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+
+main {
+    background-color: #F8FAFC;
+}
+
+#mainBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.myDiv1 {
+    width: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.myDiv2 {
+    width: 600px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.myDiv1 p {
+    line-height: 4.5;
+}
+
+.myDiv2 p {
+    line-height: 4.5;
+}
+
+.myDiv2 h2 {
+    padding-top: 20px;
+}
+
+
+.myDiv1 ol {
+    padding-inline-start: 25px;
+    line-height: 2;
+}
+
+.myDiv2 ul {
+    padding-inline-start: 25px;
+    line-height: 2;
+}
+
+@media screen and (min-width: 412px) and (max-width: 768px) {
+    h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+
+    p {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .myDiv1 {
+        width: 300px;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .myDiv2 {
+        width: 300px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .myDiv1 p {
+        line-height: 1.5;
+    }
+
+    .myDiv2 p {
+        line-height: 1.5;
+    }
+
+    .myDiv1 ol {
+        padding-inline-start: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .myDiv2 ul {
+        padding-inline-start: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    hr {
+        margin-top: 30px;
+    }
+}
